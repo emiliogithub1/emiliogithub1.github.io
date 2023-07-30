@@ -1,0 +1,81 @@
+body {
+    background-image: url("fondoport3.jpg");
+    background-size: cover; 
+}
+
+#mifoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    clip-path: circle();
+  }
+
+  .tituloysub {
+    text-align: center;
+    color: blanchedalmond;
+  }
+ 
+  h4 {
+    text-align: center;
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.61);
+  }
+
+  #fotoredes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6%;
+  }
+
+  h2 {
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+ .miform {
+  text-align: center;
+    color: blanchedalmond;
+    background-color: rgba(138, 43, 226, 0.2);
+ }
+
+ .button {
+  background-color: rgba(177, 21, 21, 0.2);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #333;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.popup-content {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup:target {
+  display: block;
+  background-color: rgb(41, 218, 159);
+}
+
+.close-button {
+  color: #d41c1c;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.close-button:hover {
+  text-decoration: underline;
+}
+
